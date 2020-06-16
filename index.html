@@ -4,7 +4,7 @@
 <head>
     <title>SR &mdash; Going Minimalist</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
     <meta name="description" content="">
     <meta name="keywords" content="html, css, javascript, jquery">
@@ -21,12 +21,62 @@
     <!-- Theme Style -->
     <link rel="icon" href="images\mylogo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
 
-    <nav class="unslate_co--site-mobile-menu">
+            <!-- Brand -->
+            <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <img src="images\srlogo.png" alt="SR" width="80" height="45">
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home-section" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-section" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio-section" class="nav-link">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-section" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="https://www.facebook.com/mdbootstrap" class="nav-link" target="_blank">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- <nav class="unslate_co--site-mobile-menu">
         <div class="close-wrap d-flex">
             <a href="#" class="d-flex ml-auto js-menu-toggle">
                 <span class="close-label">Close</span>
@@ -37,7 +87,7 @@
             </a>
         </div>
         <div class="site-mobile-inner"></div>
-    </nav>
+    </nav> -->
 
 
     <div class="unslate_co--site-wrap">
@@ -51,50 +101,15 @@
             </div>
             <!-- END lines -->
 
-            <nav class="unslate_co--site-nav site-nav-target">
-
-                <div class="container">
-
-                    <div class="row align-items-center justify-content-between text-left">
-
-                        <div class="col-md-5 text-right">
-                            <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
-                                <li><a href="#home-section" class="nav-link">HOME</a></li>
-                                <li><a href="#about-section" class="nav-link">ABOUT</a></li>
-                                <li><a href="#portfolio-section" class="nav-link">GALLERY</a></li>
-                                <li><a href="#contact-section" class="nav-link">CONTACT</a></li>
-                            </ul>
-                        </div>
-                        <div class="site-logo pos-absolute">
-                            <a href="index.html" class="unslate_co--site-logo"><img src="images\srlogo.png" alt="SR" width="170" height="90"></a>
-                        </div>
-
-                        <div class="col-md-5 text-right text-lg-left">
-                            <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
-                                <li><a href="#skills-section" class="nav-link">Skills</a></li>
-                                <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li>
-                                <li><a href="#journal-section" class="nav-link">Journal</a></li>
-
-                            </ul>
-
-                            <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
-                                <li><a href="#" class="js-menu-toggle">Menu</a></li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-            </nav>
-            <!-- END nav -->
 
             <div class="cover-v1 jarallax" style="background-image: url('images/cover_bg_2.jpg');" id="home-section">
                 <div class="container">
                     <div class="row align-items-center">
 
                         <div class="col-md-7 mx-auto text-center">
-                            <h3 class="heading gsap-reveal-hero" style="letter-spacing: 3px; font-size: 30px;">OWN LESS, DO MORE</h3>
-                            <h3 class="subheading gsap-reveal-hero" style="letter-spacing: 3px; font-size: small;">GOING MINIMALIST</h3>
+                            <h3 class="heading gsap-reveal-hero" style="letter-spacing: 10px; font-size: 30px;">GOING MINIMALIST</h3>
+                            <br>
+                            <h3 class="subheading gsap-reveal-hero" style="letter-spacing: 3px; font-size: small;">OWN LESS, DO MORE</h3>
                         </div>
 
                     </div>
