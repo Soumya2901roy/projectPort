@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 body {
     font-family: "Lato", sans-serif;
     color: #fff;
@@ -220,6 +219,7 @@ a:hover {
     padding: 10px 7px;
     display: block;
     color: #fff;
+    letter-spacing: .1rem;
     font-size: 14px;
     position: relative;
 }
@@ -560,9 +560,9 @@ a:hover {
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: rgb(0, 0, 0) !important;
+    background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -572,11 +572,11 @@ a:hover {
 }
 
 .unslate_co--site-nav.scrolled .burger-toggle-menu span {
-    background: rgb(255, 255, 255);
+    background: #000;
 }
 
 .unslate_co--site-nav.scrolled .unslate_co--site-logo {
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul,
@@ -602,7 +602,7 @@ a:hover {
 .unslate_co--site-nav.scrolled .site-nav-ul>li>a,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage>li>a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul>li>a:hover,
@@ -919,18 +919,6 @@ a:hover {
     text-transform: uppercase;
 }
 
-.mouse-wrap.dark .mouse-label {
-    color: #000;
-}
-
-.mouse-wrap.dark .mouse {
-    border: 2px solid #000;
-}
-
-.mouse-wrap.dark .mouse .scroll {
-    background: #000;
-}
-
 .mouse-wrap .mouse {
     position: absolute;
     width: 22px;
@@ -1239,7 +1227,13 @@ a:hover {
 }
 
 .unslate_co--section {
-    padding: 3.5rem 0;
+    padding: 7rem 0;
+}
+
+@media (max-width: 991.98px) {
+    .unslate_co--section {
+        padding: 4rem 0;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -1467,7 +1461,6 @@ figure.dotted-bg:before {
 
 .testimonial-v1 {
     text-align: center;
-    z-index: 9;
 }
 
 .testimonial-v1 .testimonial-inner-bg {
@@ -1479,8 +1472,6 @@ figure.dotted-bg:before {
     line-height: 40px;
     position: relative;
     z-index: 1;
-    -webkit-box-shadow: 0px 30px 0 -20px #d63447;
-    box-shadow: 0px 30px 0 -20px #d63447;
 }
 
 @media (max-width: 991.98px) {
@@ -1705,7 +1696,7 @@ figure.dotted-bg:before {
     font-size: 12px;
     display: block;
     margin-bottom: 0;
-    color: #ffffff;
+    color: #b3b3b3;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -1735,13 +1726,6 @@ figure.dotted-bg:before {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px solid white;
-}
-
-#cinema option {
-    background-color: #0f1214;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
 }
 
 @media (max-width: 767.98px) {
@@ -2179,15 +2163,9 @@ span.error {
 }
 
 .gsap-reveal {
+    display: block;
+    border: 1px solid red;
     position: relative;
-    display: inline-block;
-    overflow: hidden;
-}
-
-@media (max-width: 991.98px) {
-    .gsap-reveal.gsap-reveal-filter {
-        overflow: visible !important;
-    }
 }
 
 .gsap-reveal .cover {
@@ -2196,64 +2174,8 @@ span.error {
     left: 0;
     right: 0;
     bottom: 0;
-    background: black;
-}
-
-.gsap-reveal-hero {
-    line-height: 0;
-}
-
-.gsap-reveal-hero .reveal-wrap {
-    position: relative;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.gsap-reveal-hero .reveal-wrap .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    background: #d63447;
-    margin-left: -100%;
-    z-index: 2;
-}
-
-.gsap-reveal-hero .reveal-wrap .reveal-content {
-    line-height: 1.5;
-    z-index: 1;
-    display: inline-block;
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
-}
-
-.gsap-reveal-img {
-    line-height: 0;
-}
-
-.gsap-reveal-img .reveal-wrap {
-    position: relative;
-    overflow: hidden;
-}
-
-.gsap-reveal-img .reveal-wrap .cover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #d63447;
-    margin-left: -100%;
-    z-index: 9;
-}
-
-.gsap-reveal-img .reveal-wrap .reveal-content {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.gsap-reveal-img .reveal-wrap .reveal-content .portfolio-item-content h3 {
-    margin-bottom: 10px;
+    border: 1px solid red;
+    background: #000;
 }
