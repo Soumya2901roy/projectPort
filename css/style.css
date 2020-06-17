@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #fff;
     font-size: 16px;
     line-height: 30px;
     font-weight: 300;
     position: relative;
+    overflow-x: hidden;
 }
 
 body:before {
@@ -64,12 +65,6 @@ a:hover {
     position: relative;
     width: 100%;
     z-index: 1;
-}
-
-@media (max-width: 991.98px) {
-    .unslate_co--site-inner {
-        margin-bottom: auto !important;
-    }
 }
 
 .unslate_co--footer {
@@ -164,6 +159,7 @@ a:hover {
 
 .unslate_co--site-nav .container {
     position: relative;
+    letter-spacing: 2px;
 }
 
 .unslate_co--site-nav .site-logo {
@@ -560,23 +556,24 @@ a:hover {
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: rgb(0, 0, 0) !important;
+    background: rgb(97, 94, 94)!important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .unslate_co--site-nav.scrolled .burger-toggle-menu {
     top: 10px;
+    color: #000;
 }
 
 .unslate_co--site-nav.scrolled .burger-toggle-menu span {
-    background: rgb(255, 255, 255);
+    background: #000;
 }
 
 .unslate_co--site-nav.scrolled .unslate_co--site-logo {
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul,
@@ -617,7 +614,7 @@ a:hover {
 
 .unslate_co--site-nav.scrolled .site-nav-ul>li>a.active,
 .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage>li>a.active {
-    color: #D63447;
+    color: #38080e;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul>li>a.active:before,
@@ -645,13 +642,13 @@ a:hover {
     position: fixed;
     z-index: 1009;
     height: 100vh;
-    background: #fff;
-    width: 280px;
+    background: rgb(97, 94, 94);
     overflow: auto;
     padding-top: 30px;
     padding-bottom: 70px;
-    width: 280px;
+    width: 250px;
     left: 0;
+    letter-spacing: 2px;
     -webkit-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     transform: translateX(-100%);
@@ -727,7 +724,7 @@ a:hover {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 .unslate_co--site-mobile-menu ul a:hover,
@@ -850,8 +847,7 @@ a:hover {
 }
 
 .cover-v1 .heading {
-    font-size: 5rem;
-    font-weight: 900;
+    font-weight: 300;
     color: #fff;
 }
 
@@ -878,14 +874,8 @@ a:hover {
 }
 
 .cover-v1 .subheading {
-    font-size: 33px;
+    font-weight: 300;
     color: #fff;
-}
-
-@media (max-width: 991.98px) {
-    .cover-v1 .subheading {
-        font-size: 24px;
-    }
 }
 
 .mouse-wrap {
@@ -1705,7 +1695,7 @@ figure.dotted-bg:before {
     font-size: 12px;
     display: block;
     margin-bottom: 0;
-    color: #ffffff;
+    color: #b3b3b3;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -1724,7 +1714,7 @@ figure.dotted-bg:before {
     padding-left: 0;
     padding-right: 0;
     border-radius: 0;
-    color: #fff;
+    color: rgb(65, 63, 63);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -1739,7 +1729,7 @@ figure.dotted-bg:before {
 
 #cinema option {
     background-color: #0f1214;
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
@@ -1903,7 +1893,7 @@ figure.dotted-bg:before {
 .unslate_co--footer .footer-site-logo a {
     font-size: 30px;
     font-weight: 900;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #fff;
 }
 
